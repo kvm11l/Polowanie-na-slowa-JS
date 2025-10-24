@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: darkgrey;
+    padding: 10%;
+}
+
+#container {
+    font-size: 24px;
+    background-color: white;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    border: solid black;
+    position: relative; 
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s, color 0.5s;
+    margin: 10px auto; 
+    display: block; 
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#score {
+    font-size: 20px;
+}
+
+#game-over {
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+
+#info{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom:solid black;
+    border-radius: 50px;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+#info p {
+    margin-top: 0px;
+    font-size: 15px;
+    font-style:italic;
+}
+
+#restart-button {
+    display: none;
+    margin: 20px auto; 
+}
